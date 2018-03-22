@@ -13,6 +13,19 @@ body {
 #main-section {
 	background-color: powderblue
 }
+section#main-section > a {
+	color: blue;
+	text-decoration: none;
+	padding: 15px;
+	display: block;
+}
+
+a[href="https://github.com/jovelynpoyaoan"] {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
 .about {
 	width: 60%;
 	/*margin: 0 auto;*/
